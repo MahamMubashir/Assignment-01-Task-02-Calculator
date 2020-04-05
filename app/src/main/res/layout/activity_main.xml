@@ -9,7 +9,7 @@
     tools:context="pk.edu.pucit.calculator.MainActivity">
 
     <TextView
-        android:id="@+id/tv_equation"
+        android:id="@+id/tvInput"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:gravity="right|bottom"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tv_result"
+        android:id="@+id/tvOutput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="right"
@@ -30,7 +30,7 @@
         android:textSize="18pt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_equation" />
+        app:layout_constraintTop_toBottomOf="@+id/tvInput" />
 
     <View
         android:layout_width="match_parent"
@@ -48,7 +48,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_result">
+        app:layout_constraintTop_toBottomOf="@+id/tvOutput">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -57,6 +57,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/btnAC"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -67,6 +68,7 @@
                 android:textSize="10pt" />
 
             <TextView
+                android:id="@+id/btnDivision"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -77,6 +79,7 @@
                 android:textSize="10pt" />
 
             <TextView
+                android:id="@+id/btnMultiply"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -87,6 +90,7 @@
                 android:textSize="10pt" />
 
             <TextView
+                android:id="@+id/btnMinus"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -106,6 +110,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/btn7"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -116,6 +121,7 @@
                 android:textSize="10pt" />
 
             <TextView
+                android:id="@+id/btn8"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -126,6 +132,7 @@
                 android:textSize="10pt" />
 
             <TextView
+                android:id="@+id/btn9"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -135,6 +142,7 @@
                 android:textColor="@color/white"
                 android:textSize="10pt" />
             <TextView
+                android:id="@+id/btnPlus"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -153,6 +161,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/btn4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -163,6 +172,7 @@
                 android:textSize="10pt" />
 
             <TextView
+                android:id="@+id/btn5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -173,6 +183,7 @@
                 android:textSize="10pt" />
 
             <TextView
+                android:id="@+id/btn6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -183,6 +194,7 @@
                 android:textSize="10pt" />
 
             <TextView
+                android:id="@+id/btnPercent"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -201,6 +213,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/btn1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -211,6 +224,7 @@
                 android:textSize="10pt" />
 
             <TextView
+                android:id="@+id/btn2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -221,6 +235,7 @@
                 android:textSize="10pt" />
 
             <TextView
+                android:id="@+id/btn3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -230,6 +245,7 @@
                 android:textColor="@color/white"
                 android:textSize="10pt" />
             <TextView
+                android:id="@+id/btnClear"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -249,6 +265,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/btn00"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -259,6 +276,7 @@
                 android:textSize="10pt" />
 
             <TextView
+                android:id="@+id/btn0"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -269,6 +287,7 @@
                 android:textSize="10pt" />
 
             <TextView
+                android:id="@+id/btnDot"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -279,6 +298,7 @@
                 android:textSize="10pt" />
 
             <TextView
+                android:id="@+id/btnEqual"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
